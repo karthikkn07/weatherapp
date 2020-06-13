@@ -1,9 +1,29 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Weather App</title>
+    <link rel="stylesheet" href="wa.css">
 </head>
+
 <body>
-    
+    <div class="main-div">
+        <p class="p-w">WEATHER APP</p>
+        <div>
+            <input type="text" placeholder="Search for the city" id="field">
+            <button id="search-btn" onclick="myCity()">Search</button>
+        </div>
+        <div id="details" style="display: none;">
+            <div><span>City Name : </span><span id="city"></span></div><br>
+            <div><span>Temperature: </span><span id="temp"></span></div><br>
+            <div><span>Weather: </span><span id="desp"></span></div><br>
+            <div><span>Clouds:</span><span id="clouds"></span></div><br>
+            <div><span>Coordinates:</span><span id="coordinates"></div></span>
+        </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
 </body>
+
 </html>
