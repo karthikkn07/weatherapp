@@ -13,9 +13,10 @@ function myCity() {
         weatherFore(data);
     })
     .catch(function(){
-        console.log('There is a problem in the url')
-        
+        alert('Kindly Check your City Name');
+        document.getElementById("details").style.display = "none";
     });
+    
 }
 
 function weatherFore(d) {
@@ -27,4 +28,4 @@ function weatherFore(d) {
     document.getElementById('desp').innerHTML = d.weather[0].description;
     document.getElementById('clouds').innerHTML = d.clouds.all;
     document.getElementById('coordinates').innerHTML =(`${d.coord.lon},${d.coord.lat}`) ;
-}
+} 

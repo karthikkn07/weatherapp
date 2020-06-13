@@ -24,19 +24,19 @@ body{  font: 1em sans-serif;
 #field {
     width: 250px;
     height: 30px;
-    color: white;
+    color: black;
     background: transparent;
     border: 2px solid white;
     border-radius: 5px;
 }
 
 ::placeholder {
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 #search-btn {
     height: 30px;
-    border: 2px solid white;
+    border: 2px solid rgb(255, 255, 255);
     border-radius: 5px;
 }
 
