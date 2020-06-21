@@ -5,7 +5,7 @@ html {
   background-size: cover;
 }
 
-body{  font: 1em sans-serif;
+body{  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .main-div {
@@ -18,7 +18,8 @@ body{  font: 1em sans-serif;
 
 .p-w{
     color: white;
-    font-size: 40px;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #field {
